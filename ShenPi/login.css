@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Box{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 100px;
+    border: 2px solid #dadce0;
+    width: 25%;
+    height: 40%;
+    border-radius: 7px;
+}
+
+a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 79%;            
+}
+
+.Email{   
+    border: none;                   
+    border: none;            
+    outline: none;
+    color: rgba(0, 0, 0, 0.525);
+    width: 100%;
+    letter-spacing: none;
+    border-radius: 15px;                        
+}.Mover1{
+    position: relative;
+    top: -5px;
+}.Email1{
+    position: relative;
+    border: 2px solid #dadce0;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    }
+
+.Senha{              
+    border: none;            
+    outline: none;
+    color: rgba(0, 0, 0, 0.525);
+    width: 100%;
+    letter-spacing: none;
+    border-radius: 15px;            
+}.Mover2{
+    position: relative;
+    top: -5px;
+}.Senha1{
+    border: 2px solid #dadce0;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+}#icon{
+    position: absolute;
+    background: url(olho.png);
+    color: aqua;
+    top: 42.900%;
+    right: 50px;
+    transform: translateY(-50%);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}#icon.hide{
+    background: url(olhoA.png);
+    background-size: cover;
+    position: absolute;
+    color: aqua;
+    top: 42.900%;
+    right: 50px;
+    transform: translateY(-50%);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+#Mandar{
+    background-color:rgba(18, 64, 142, 0.806);
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#Mandar:hover{
+    background-color: rgb(14, 50, 111);
+    cursor: pointer;
+}
+
+.text{
+    width: 100%;
+}
+
+.Cadastra-se:Link {
+text-decoration:none;
+}.Cadastra-se:hover {
+color: rgb(10, 35, 79)
+}.Cadastra-se{
+    width: 100%;
+    color: rgb(18, 64, 142, 0.806);       
+}
+
+.Login1{
+    position: absolute;
+    color: black;    
+    position: relative;
+    padding: 2px;
+    border-radius: 15px;
+    width: 100%;     
+}.Login_Bord{
+    border-radius: 4px;
+    border: 1px solid #dadce0;
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.497); 
+    float: left;
+    width: 49%;   
+}.Login_Fac{
+    position: relative;
+    left: 7px;
+    top: -8px;
+    color: rgb(0, 0, 0);
+}.Login_Fac:Link {
+    text-decoration:none;
+}.Login_Fac:hover {
+    color: rgb(10, 35, 79)
+}
+    
+.Login2{
+    position: absolute;
+    color: black;
+    position: relative;
+    padding: 2px;
+    border-radius: 15px;
+    width: 100%;    
+}.Login_Border{
+    border-radius: 4px;
+    border: 1px solid #dadce0; 
+    box-shadow: inset 0px -1px 0px 0px rgb(0, 0, 0, 0.497);    
+    float:right;
+    position: relative;
+    width: 49%;   
+}.Login_Gog{
+    position: relative;
+    left: 7px;
+    top: -8px;
+    color: black;
+}.Login_Gog:Link {
+    text-decoration:none;
+}.Login_Gog:hover {
+    color: rgb(10, 35, 79)
+}

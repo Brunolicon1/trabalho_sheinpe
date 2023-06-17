@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Cadastra-se</title>
+ 
+</head>
+<body>
+
+    <style>
+
+        .box{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 79%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 50%;            
+            padding: 10px;
+            border: 2px solid #dadce0;
+            border-radius: 4px;  
+            transform: translate(-50%, -50%)            
+        }
+        
+        .Email{
+
+        }#Emails{  
+            border: 2px solid #dadce0;
+            border-radius: 4px;
+            float: right;          
+            position: relative;
+            width: 45%;    
+            top: -42px;
+            height: 30px; 
+        }.Nome{
+        
+        }#Nomes{
+            border: 2px solid #dadce0;
+            border-radius: 4px;
+            float: left;
+            width: 45%;
+            height: 30px;
+        }.Senha{
+
+        }#Senhas{
+            border: 2px solid #dadce0;
+            border-radius: 4px;
+            position: relative;
+            float: left;
+            width: 45%;
+            height: 30px;
+            top: -25px;
+        }.Localizacao{
+
+        }#Localizacoes{
+            border: 2px solid #dadce0;
+            border-radius: 4px;
+            position: relative;
+            float: right;
+            width: 45%;
+            height: 30px;
+            top: -67px;
+        }.CEP{
+
+        }#CEPS{
+            border: 2px solid #dadce0;
+             border-radius: 4px;
+            position: relative;
+            float: left;
+            width: 45%;
+            height: 30px;
+            top: -50px;
+        }.Telefole{
+
+        }#Telefones{
+            border: 2px solid #dadce0;
+            border-radius: 4px;
+            position: relative;
+            float: left;
+            width: 45%;
+            height: 30px;
+        }.Data{
+
+        }#Datas{
+            border: 2px solid #dadce0;
+            border-radius: 4px;
+            position: relative;
+            float: right;
+            width: 45%;
+            height: 33px;
+            top: -44px;
+        }.Informacao{
+
+        }#Informacoes{
+            border: 2px solid #dadce0;
+            border-radius: 4px;
+            position: relative;
+            float: left;
+            width: 45%;
+            height: 30px;
+            top: -25px;
+        }.Linha1{
+            position: relative;
+            top: -15px;
+            right: 315px;
+        }.Linha2{
+            position: relative;
+            top: -57px;
+            left: 383px;
+        }.Linha3{
+            position: relative;
+            top: -40px;
+            right: 315px;
+        }.Linha4{
+            position: relative;
+            top: -82px;
+            left: 383px;
+            
+        }.Linha5{
+            position: relative;
+            top: -65px;
+            right: 315px;
+        }.Linha6{
+            position: relative;
+            top: -15px;
+            right: 315px;
+        }.Linha7{
+            position: relative;
+            top: -60px;
+            left: 383px;
+            
+        }.Linha8{
+            position: relative;
+            top: -40px;
+            right: 315px;
+        }
+
+        .Enunciado{
+            background-color: white;
+            position: relative;
+            top: -20px;
+            width: 150px;
+           
+        }.Pessoal{
+            position: relative;
+            top: -30px;
+        }.Pessoal2{
+            position: relative;
+            top: -30px;
+        }
+
+        a{
+            color: black;
+        }
+
+        #Enviar{
+            border: none;
+            border-radius: 4px;
+            color: white;
+            background-color:rgba(18, 64, 142, 0.806);
+            position: relative;
+            top: -10px;
+            width: 40%;
+            height: 40px;
+        }#Enviar:hover{
+            background-color: rgb(14, 50, 111);
+            cursor: pointer;
+        }#icon{
+            position: absolute;
+            background: url(olho.png);
+            background-size: cover;
+            width: 30px;
+            top: 155px;
+            left: 335px;
+            height: 30px;
+            cursor: pointer;
+        }#icon.hide{
+            background: url(olhoA.png);
+            background-size: cover;
+            position: absolute;
+            width: 30px;
+            top: 155px;
+            left: 335px;
+            height: 30px;
+            cursor: pointer;
+        }
+
+    </style>
+
+
+
+<div class="box">
+    <center>
+    <h2 class="Enunciado">Cadastro</h2>
+    </center>
+
+ <div class="InfoPesso">
+
+ <strong>
+
+    <center>
+    <a class="Pessoal">Informações Pessoais</a>
+    </center><br>
+
+    <div class="Nome">
+        <input type="text" id="Nomes" name="Úsuario" required><a class="Linha1">Nome</a></input>
+    </div><br><br>
+
+    <div class="Email">
+        <input type="email" id="Emails" name="Email" required><a class="Linha2">E-Mail</a></input>
+    </div><br><br>
+
+    <div class="Senha">
+        <input type="password" id="Senhas" name="Senha" required><a class="Linha3">Crie Sua Senha<a></input>
+            <div id="icon" onclick="showhide()"></div>
+
+        <script src="scripst..js"></script>
+
+    </div><br><br>
+
+    <div class="Localizacao">
+        <input type="text" id="Localizacoes" name="Localizacao" required><a class="Linha4">Informe Sua Localizacão<a></input>
+    </div><br><br>
+
+    <div class="CEP">
+        <input type="number" id="CEPS" name="CEP" required><a class="Linha5">Informe Seu CEP<a></input>
+    </div><br><br>
+ </div> 
+
+ <div class="Dados">
+
+    <center>
+    <a class="Pessoal2">Informações Sobre Você</a>
+    </center><br>
+
+    <div class="Telefone">
+        <input type="tel" id="Telefones" name="Telefone"><a class="Linha6">Informe Seu Telefone</a></input>
+    </div><br><br>
+
+    <div class="Data">
+        <input type="date" id="Datas" name="Data"><a class="Linha7">Informe Sua Data de Nascimento<a></input>
+    </div><br><br>
+
+    <div class="Informacao">
+        <input type="text" id="Informacoes" name="Informações"><a class="Linha8">Informações Adicionais</a></input>
+    </div><br><br>
+ </div>
+ <center>
+    <div class="Enviar">
+        <input type="submit" id="Enviar" value="MANDAR" name="Enviar"></input>
+    </div>
+ </center>
+
+ </strong>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atendimento ao Cliente</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+    <body>
+        <div class="fundo">
+
+            <div class="barra">
+                <nav class="navegacao">                
+                    <button class="voltar" onclick="window.history.back()" ><img src="/imagens nav/imagem_voltar-removebg-preview.png" width="35px"> </button> 
+                    <H1 class="logo"><a href="/index.html"><img src="/imagens nav/Captura de tela 2023-06-15 200637.png" alt="" width="200"></a></H1>
+                    
+                    <ul>
+        
+                        <li class="icons-nav"> <a href="/Carrinho/Carrinho/Carrinho.html" ><img src="/imagens nav/imagem_carrinho.png" width="35px" ></a></a> </li>
+                        <li class="icons-nav"> <a href=""> <img src="/imagens nav/imagem_atendimento.png" width="35px"></a> </li>
+                        <li class="icons-nav"> <a href="/novo teste/ShenPe/login.html"> <img src="/imagens nav/imagem_login.png" width="35px"></a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+    
+        <main class="estilo">
+
+            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                <h1>Dados Pessoais:</h1>
+                <form method="get" action="index.html" enctype="multipart/form-data">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required class="dados-usuario">
+
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" class="dados-usuario">
+
+                    <input type="text" name="e-mail" id="e-mail" placeholder="E-mail" class="dados-usuario" required>
+
+                    <input type="password" name="cpf" id="cpf" placeholder="CPF (Sem Simbolos)" class="dados-usuario" required>
+
+                <br><br>
+
+                <label class="descricao-de-area">Data de Nascimento:</label>
+                    <select name="dia" class="select-data-de-nascimento">
+                        <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+                        <option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option>
+                        <option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+                        <option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                        <option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                        <option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option>
+                        <option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option>                        <option value="29">29</option><option value="30">30</option><option value="31">31</option>
+                    </select>
+                    <select name="mes" class="select-data-de-nascimento">
+                        <option value="jan">Jan</option><option value="fev">Fev</option><option value="mar">Mar</option><option value="abr">Abr</option>
+                        <option value="mai">Mai</option><option value="jun">Jun</option><option value="jul">Jul</option><option value="ago">Ago</option>
+                        <option value="set">Set</option><option value="out">Out</option><option value="nov">Nov</option><option value="dez">Dez</option>
+                    </select>
+                    <select name="ano" class="select-data-de-nascimento">
+                        <option value="1999">1995</option><option value="1999">1996</option><option value="1999">1997</option><option value="1999">1998</option>
+                        <option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option>
+                        <option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option>
+                        <option value="2007">2007</option><option value="2008">2008</option>
+                    </select>
+
+                <br><br>
+
+                <label class="descricao-de-area">Gênero:</label>
+                <div class="radio radio-feminino">
+                    <label for="feminino">Feminino</label>
+                        <input type="radio" name="genero" id="feminino" value="feminino">
+                </div>
+                <div class="radio radio-masculino">
+                    <label for="masculino">Masculino</label>
+                        <input type="radio" name="genero" id="masculino" value="masculino">
+                </div>
+
+                <br><br>
+                <label class="descricao-de-area">Descreva:</label>
+                <textarea rows="10" cols="65" maxlength="2500" class="caixa-texto"></textarea>
+                <br><br>
+                <input type="submit" value="Enviar" class="botao-enviar">
+                <p class="termos">Ao clicar em Enviar, você concorda com nossos Termos, <strong><a href="#">Política de Privacidade</a></strong> e <strong><a href="#">Política de Cookies</a></strong>. Você poderá
+                    receber notificações por E-mail e cancelar isso quando quiser.</p>
+            </form>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="container">
+          <nav class="footer-nav">
+            <ul>
+                <h4>Roupas:</h4>
+              <li><a href="#">Sheinpe</a></li>
+              <li><a href="#">Roupas Masculinas</a></li>
+              <li><a href="#">Roupas Femininas</a></li>
+              <li><a href="#">Acessórios</a></li>
+              <li><a href="#">Roupas Infantis</a></li>
+             
+            </ul>
+          </nav>
+          <div class="footer-info">
+            <h4>Contatos:</h4>
+            <ul>
+              <li>Telefone: +55 (63) 9000-0000</li>
+              <li>Email: info@Sheinpe.com</li>
+            </ul>
+            <h4>Colaboradores:</h4>
+            <ul>
+              <li>Bianca</li>
+              <li>Bruno</li>
+              <li>Caio</li>
+              <li>Letícia</li>
+              <li>Maria Fernada</li>
+              <li>Vlaydson</li>
+            </ul>
+          </div>
+          <div>
+          <h4>Metodos de pagamentos aceitos:</h4>
+          <ul>
+            <li>Pix</li>
+            <li>Cartão de Crédito</li>
+            <li>Cartão de Débito</li>
+            <li>Boleto</li>
+            <li>Parcelado</li>
+          </ul>
+        </div>
+        <label>Deseja colaborar com o site? </label>
+        <input type="email" placeholder="Digite o seu E-mail"><br>
+        </div>
+        <h3>Todos os direitos reservados-Sheinpe</h3>
+      </footer>
+    </body>
+</html>

@@ -1,0 +1,185 @@
+
+ul{
+    list-style-type: none;
+}
+body{
+    background: url(/arte_banners/fundo3.0.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.logo{
+    text-align: center;
+      
+}
+
+   
+
+.navegacao{  
+    position: relative;
+    /* mudar essa posição para manter a barra fixa*/
+    height:10ch; /*mudar aqui a grossura da barra amarela*/
+    vertical-align: bottom;
+    text-align: center;
+    background-image: linear-gradient(orange,yellow);
+    margin-top: 150px;
+    border-radius: 40px;
+}
+
+.navegacao h2{
+    font-size: 50px
+}
+.voltar{
+    border: none;
+    background: none;
+    position: relative;
+    
+}
+.navegacao h1{
+    position: relative;
+    bottom: 60px;
+    right: 500px;
+    
+}
+.navegacao button{
+    position: relative;
+    right: 630px;
+    top: 24px;
+}
+.navegacao ul{
+position: relative;
+margin-left: 500px;
+bottom: 70px;
+}
+.navegacao ul li{
+    padding: 5px;
+    border-bottom:
+    transition: box-shadow 0.3s ease;
+}
+.navegacao ul li:hover{
+    border-radius: 800px;
+    padding: 6px;
+    border-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.icons-nav{
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+    bottom: 80px;
+}
+.caixa-de-pesquisa{
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+    bottom: 90px;
+    border: 30px;
+    background-color: white;
+    border-radius: 40px;
+    
+}
+.barradepesquisa{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-color:white;
+    border-radius: 40px;
+    padding: 8px;
+    fon
+}
+
+
+.banners{
+    position: relative;
+    text-align: center;
+
+
+}
+.roupas{
+    text-align: center;
+}
+.mostruario {
+    left: 30px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    border: 10px  ;
+    vertical-align:top;
+    padding-bottom: 450px;
+    margin: 10px;
+    margin-right: 110px;
+    background-color:  rgb(241, 231, 231);
+    border: solid gray;
+    
+    
+    
+}
+
+.mostruario:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+.mostruario img{
+    text-align: center;
+    padding: 25px;
+    
+}
+.mostruario li p{
+    vertical-align: text-bottom;
+    text-align: center;
+}
+.footer {
+    background-color:#333;
+    padding: 20px;
+    color: white;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-nav ul,
+  .footer-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-nav ul li,
+  .footer-info ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-nav ul li a:hover {
+    text-decoration: underline;
+  }
+  h3{
+      text-align: center;
+  }
+  input[type=email] {
+    transition: width 0.4s ease-in-out;
+    height: 12px;
+    width: 25px;
+    
+  }
+  
+  input[type=email]:focus {
+    width: 20%;
+  }
+   
+
