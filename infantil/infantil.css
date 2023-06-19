@@ -9,7 +9,7 @@ p{
     text-decoration: none;
 }
 body{
-    background: url(/arte_banners/fundo3.0.png);
+    background: url(/trabalho_sheinpe/arte_banners/fundo3.0.png);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +63,6 @@ bottom: 70px;
 }
 .navegacao ul li{
     padding: 5px;
-    border-bottom:
     transition: box-shadow 0.3s ease;
 }
 .navegacao ul li:hover{
@@ -96,7 +95,6 @@ bottom: 70px;
     border-color:white;
     border-radius: 40px;
     padding: 8px;
-    fon
 }
 
 

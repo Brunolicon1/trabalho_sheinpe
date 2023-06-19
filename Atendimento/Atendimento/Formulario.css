@@ -6,7 +6,7 @@ ul{
     list-style-type: none;
 }
 body{
-    background: url(/arte_banners/fundo3.0.png);
+    background: url(/trabalho_sheinpe/arte_banners/fundo3.0.png);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +26,7 @@ body{
 .navegacao{  
     position: relative;
     /* mudar essa posição para manter a barra fixa*/
-    height:10ch; /mudar aqui a grossura da barra amarela/
+    height:10ch; 
     vertical-align: bottom;
     text-align: center;
     background-image: linear-gradient(orange,yellow);
@@ -61,7 +61,6 @@ bottom: 70px;
 }
 .navegacao ul li{
     padding: 5px;
-    border-bottom:
     transition: box-shadow 0.3s ease;
 }
 .navegacao ul li:hover{
